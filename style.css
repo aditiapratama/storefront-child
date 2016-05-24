@@ -1,0 +1,147 @@
+/*
+ Theme Name:   Storefront Child
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Storefront Child Theme
+ Author:       Aditia A. Pratama    
+ Author URI:   http://example.com
+ Template:     Storefront
+ Version:      0.0.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  storefront-child
+*/
+
+body {
+    background-color: #232323;
+/*    background-color: antiquewhite;*/
+}
+
+@media screen and (max-width: 768px) {
+    .hentry {
+        margin-top: -50%;
+    }
+    
+    .our-address p {
+        text-align: center;
+    }
+    
+    .our-address h2 {
+        text-align: center;
+    }
+    
+    .headline-fp h1 {
+        text-align: center;
+    }
+}
+
+/*
+.hentry .entry-header h1 {
+        background-color: #ccc !important;
+    visibility: hidden;
+    border: none;
+}
+*/
+
+/*
+.hentry .entry-header {
+    position: relative;
+    visibility: hidden;
+}
+*/
+
+/*
+.hentry {
+    margin-top: -18%;
+      position: relative;
+}
+*/
+
+.fp-headline h4 {
+    font-size: 18px;
+}
+
+#pg-103-0 .panel-grid-cell {
+    margin-top: -50px;
+}
+
+#pg-103-1 h3 {
+    color: #ccc;
+}
+
+#pg-103-1 p {
+    color: #c9c9c9;
+}
+
+.site-footer {
+    background-color: #161619;
+}
+
+input#woocommerce-product-search-field {
+    background: #2C2D33;
+    /*    margin-left: 150px;*/
+    /*    border: none;*/
+    /*    border-radius: 3px;*/
+    /*    box-shadow: inset 1px 1px 1px #242424, inset -1px -1px 1px #565656;*/
+    /*    color: #aaaaaa;*/
+    /*    outline: none;*/
+    padding: 10px 10px 10px 38px;
+    /*	text-shadow: 1px 1px 2px #141414;*/
+    width: 100%;
+    font-size: 14px;
+    transition: all 0.25s ease-in-out;
+}
+
+.site-search .widget_product_search form:before {
+    margin-top: -8px;
+    padding-right: -15px;
+    /*    margin-left: 150px;*/
+}
+
+input#woocommerce-product-search-field:focus {
+    width: 100%;
+    background: #ccc;
+    border: none;
+    border-radius: 3px;
+    box-shadow: inset 1px 1px 1px #242424, inset -1px -1px 1px #565656;
+    outline: none;
+}
+
+.wpcf7 input.wpcf7-text {
+    min-width: 100%;
+    border-bottom: thick;
+    background-color: #2C2D33;
+    border-color: #ccc;
+    border-style: solid;
+    border-bottom: thin solid #ccc;
+    color: #ccc;
+}
+
+.contact-form textarea {
+    min-width: 100%;
+    background-color: #2C2D33;
+    border-color: #ccc;
+    border-style: solid;
+    border-bottom: thin solid #ccc;
+    color: #ccc;
+}
+
+.our-address h2 {
+    color: #ccc;
+}
+
+.site-info {
+    color: #fafafa;
+}
+.site-info .glyphicon {
+    color: red;
+}
+
+/*
+#pg-103-1 img {
+    min-width: 80%;
+    border-radius: 50%;
+}
+*/
+
+
+
